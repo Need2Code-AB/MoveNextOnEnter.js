@@ -5,6 +5,10 @@
 - **Company**: Need2Code AB
 - **Contact**: [anders@need2code.se](mailto:anders@need2code.se)
 
+## A Note from the Creator
+
+I've decided to share this script as a token of gratitude to the open-source community. I've been on the consuming end of open-source for a long time and have benefitted immensely from the contributions of developers worldwide. Open-source is a symbiotic relationship, and sharing this script is my way of giving back. I hope it serves you as well as the open-source community has served me. 
+
 ## Overview
 
 `MoveNextOnEnter` is a JavaScript object that defines behavior for navigating through form input fields. When the user presses the Enter key, focus is shifted to the next input field in a predefined sequence.
