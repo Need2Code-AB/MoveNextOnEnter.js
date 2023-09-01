@@ -9,6 +9,10 @@
 
 `MoveNextOnEnter` is a JavaScript object that defines behavior for navigating through form input fields. When the user presses the Enter key, focus is shifted to the next input field in a predefined sequence.
 
+## Dependencies
+
+- [jQuery](https://jquery.com/) (Version 3.x or later)
+
 ## Initialization
 
 To initialize the script, use:
