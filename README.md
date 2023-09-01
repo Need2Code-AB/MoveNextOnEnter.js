@@ -129,3 +129,6 @@ $(function() {
   });
 });
 ```
+## Contribution
+
+Feel free to contribute to this script as it's part of the open-source community. Any improvements or suggestions are welcome.
