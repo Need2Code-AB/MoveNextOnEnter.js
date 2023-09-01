@@ -4,6 +4,7 @@
 - **Creator**: Anders Elmén
 - **Company**: Need2Code AB
 - **Contact**: [anders@need2code.se](mailto:anders@need2code.se)
+- **Part of WMS**: Pineapple
 
 ## A Note from the Creator
 
@@ -109,4 +110,22 @@ Here are some example HTML forms that use the script:
     </select>
     <button id="autosubmit" type="submit">Auto Submit</button>
 </form>
+```
+## jQuery Example
+
+```javascript
+$(function() {
+  // Initialize the MoveNextOnEnter script
+  MoveNextOnEnter.init();
+
+  // Add custom element to the sequence
+  MoveNextOnEnter.addElement('#customElement');
+
+  // Use an event to trigger MoveNextOnEnter on 'Enter' press
+  $('#yourInput').keydown(function(e) {
+    if (e.keyCode === 13) {
+      MoveNextOnEnter.setFocus(this);
+    }
+  });
+});
 ```
