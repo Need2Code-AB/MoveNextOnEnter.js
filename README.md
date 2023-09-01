@@ -93,7 +93,7 @@ Here are some example HTML forms that use the script:
 <form id="exampleForm1">
     <input type="text" id="field1" />
     <input type="text" id="field2" />
-    <input type="submit" value="Submit" />
+    <button id="autosubmit" type="submit">Auto Submit</button>
 </form>
 
 <!-- Example Form 2 -->
@@ -103,6 +103,6 @@ Here are some example HTML forms that use the script:
         <option value="1">One</option>
         <option value="2">Two</option>
     </select>
-    <input type="submit" value="Submit" />
+    <button id="autosubmit" type="submit">Auto Submit</button>
 </form>
 ```
